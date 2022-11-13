@@ -1,0 +1,56 @@
+.cs-rating_circles label {
+  height: 16px;		  height: 16px;
+  width: 16px;		  width: 16px;
+  border: 1px solid #707070;		  border: 1px solid #707070;
+  border-radius: 50%;		  border-radius: 50%;
+  cursor: pointer;		  cursor: pointer;
+  margin: 0 5px;		  margin: 0 5px;
+}
+.cs-rating_circles label.active {
+  background-color: #1630a7;
+}
+.cs-rating_circles label input {
+  display: none;
+}
+
+.cs-alert.danger {
+  background-color: #f5b4b2;
+  font-size: 20px;
+  line-height: 1.4em;
+  padding: 21px 20px;
+  font-weight: 600;
+  color: #c61212;
+}
+.cs-alert.danger b {
+  font-weight: 600;
+  color: #c61212;
+}
+@media print {
+  .no-print{
+    display: none;
+  }
+  .col-xl-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .cs-thumb_lg{
+    width: 50%;
+  }
+}
+.hidden{
+  display:none;
+}
+
+.cs-search_input {
+  width: 300px;
+  border-radius: 5px 0 0 5px;
+}
+
+.cs-color-danger {
+  color: #fff;
+  background-color: #fc0000;
+}
+.cs-header_category_list li a:hover > img{
+ filter: brightness(0) invert(1);   
+}
+}

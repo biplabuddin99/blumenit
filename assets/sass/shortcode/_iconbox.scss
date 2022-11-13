@@ -1,0 +1,35 @@
+.cs-iconbox_1_wrap {
+  display: grid;
+  grid-gap: 40px 12%;
+  grid-template-columns: repeat(3, 1fr);
+}
+.cs-iconbox.cs-style1 {
+  .cs-iconbox_icon {
+    margin-bottom: 25px;
+  }
+  .cs-iconbox_title {
+    font-size: 40px;
+    line-height: 1.2em;
+    margin-bottom: 18px;
+  }
+  .cs-iconbox_subtitle {
+    font-size: 20px;
+  }
+}
+.cs-iconbox.cs-style2 {
+  svg {
+    color: #697d9b;
+  }
+  .cs-iconbox_title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #012147;
+    margin: 20px 0 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .cs-iconbox.cs-style2 .cs-iconbox_title {
+    font-size: 18px;
+  }
+}

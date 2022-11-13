@@ -1,0 +1,5 @@
+user:  superadmin
+pw : 123456
+
+
+admin login link:http://localhost/blumen/adminlogin

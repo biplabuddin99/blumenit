@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53" height="43" viewBox="0 0 53 43">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_457" data-name="Rectangle 457" width="53" height="43" transform="translate(490.295 110.015)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_70" data-name="Mask Group 70" transform="translate(-490.295 -110.015)" clip-path="url(#clip-path)">
+    <g id="Blueman_Computer_Logo_icon" data-name="Blueman Computer Logo icon" transform="translate(492.232 110)">
+      <path id="Path_258" data-name="Path 258" d="M11.827,4.956H42.686s11.377,1.208,6.845,19.193c-5.172.1-40.13-.1-48.038,13.339a35.3,35.3,0,0,1,15.29-14.454,50.546,50.546,0,0,1,22.248-5.059c.681-.155,1.321-.847,1.208-2.375l-.527-1.528H20.7Z" transform="translate(-1.493 -4.956)" fill="#2c5daa"/>
+      <path id="Path_259" data-name="Path 259" d="M50.244,31.272s-29.475-1.9-39.18,4.109h24.2s4.8-.1,3.9,6.174H13.7L2.619,52.054H42.645S53.3,52.209,50.244,31.272Z" transform="translate(-1.669 -9.023)" fill="#1cab8f"/>
+    </g>
+  </g>
+</svg>

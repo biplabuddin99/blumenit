@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="51" viewBox="0 0 51 51">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_572" data-name="Rectangle 572" width="51" height="51" transform="translate(1094 1029)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="linkedin" transform="translate(-1094 -1029)" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(1094 1029)">
+      <g id="Layer_1" data-name="Layer 1">
+        <rect id="Rectangle_582" data-name="Rectangle 582" width="51" height="51" rx="10.983" fill="#2a67b2"/>
+        <path id="Path_805" data-name="Path 805" d="M8.462,19.832l7.047-.118.375,22.674-7.057.118ZM11.8,8.495a4.086,4.086,0,1,1-4.011,4.162A4.086,4.086,0,0,1,11.8,8.495" fill="#fff"/>
+        <path id="Path_806" data-name="Path 806" d="M19.928,19.638l6.757-.107.054,3.1h.075a7.411,7.411,0,0,1,6.607-3.775C40.553,18.748,42,23.414,42,29.581l.2,12.431-7.047.118L35.051,31.1c0-2.638-.15-6.017-3.765-5.953s-4.172,2.928-4.129,5.888l.182,11.219-7.036.107Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

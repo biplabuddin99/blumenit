@@ -1,0 +1,995 @@
+.cs-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cs-info .cs-info_icon {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  margin-right: 20px;
+}
+
+.cs-info .cs-info_title {
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 25px;
+  margin: 0;
+}
+
+.cs-info .cs-info_subtitle {
+  font-size: 16px;
+  line-height: 24px;
+  color: #6e6e6e;
+  margin-top: 1px;
+}
+
+.cs-info.cs-color1 .cs-info_title {
+  color: #4d4c4c;
+}
+
+.cs-info.cs-color2 .cs-info_title {
+  color: #095bff;
+}
+
+.cs-info.cs-color3 .cs-info_title {
+  color: #fc0000;
+}
+
+.cs-info.cs-color4 .cs-info_title {
+  color: #1cab8f;
+}
+
+.cs-info.cs-type1 .cs-info_title {
+  color: #4d4c4c;
+}
+
+.cs-info.cs-type1 .cs-info_subtitle {
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+
+.cs-with_shape {
+  position: relative;
+}
+
+.cs-with_shape > *:not(.cs-shape) {
+  position: relative;
+  z-index: 7;
+}
+
+.cs-with_shape .cs-shape {
+  position: absolute;
+}
+
+.cs-with_shape.cs-style1 .cs-position1 {
+  left: -145px;
+  top: 20%;
+}
+
+.cs-with_shape.cs-style1 .cs-position2 {
+  left: 37%;
+  top: 80px;
+}
+
+.cs-with_shape.cs-style2 .cs-position1 {
+  right: -40px;
+  top: -200px;
+}
+
+.cs-with_shape.cs-style2 .cs-position2 {
+  left: 47%;
+  top: -40px;
+}
+
+.cs-with_shape.cs-style3 .cs-position1 {
+  right: -140px;
+  top: -350px;
+}
+
+.cs-with_shape.cs-style4 .cs-position1 {
+  left: -10%;
+  top: 10%;
+}
+
+.cs-with_shape.cs-style5 .cs-position1 {
+  left: 10%;
+  top: 44%;
+}
+
+.cs-with_shape.cs-style5 .cs-position2 {
+  right: 10%;
+  top: 44%;
+}
+
+.cs-tab_links.cs-style1 {
+  list-style: none;
+  margin: 0 0 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #ababab;
+  font-weight: 600;
+  border-bottom: 1px solid #1cab8f;
+  padding: 0 70px;
+}
+
+.cs-tab_links.cs-style1 li:not(:last-child) {
+  margin-right: 5px;
+}
+
+.cs-tab_links.cs-style1 a {
+  background-color: #ededf8;
+  border-radius: 20px 20px 0 0;
+  padding: 14px 50px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+
+.cs-tab_links.cs-style1 a:hover {
+  color: #1cab8f;
+  background-color: rgba(28, 171, 143, 0.15);
+}
+
+.cs-tab_links.cs-style1 .active a {
+  color: #fff;
+  background-color: #1cab8f;
+}
+
+.cs-tab_content.cs-style1 {
+  font-size: 18px;
+  line-height: 33px;
+  border: 1px solid #e3e3e3;
+  padding: 20px 70px;
+}
+
+.cs-tab_content.cs-style1 b {
+  font-weight: 600;
+}
+
+.cs-tab_content.cs-style1 h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #030303;
+  margin: 0 0 2px 0;
+  line-height: 33px;
+}
+
+.cs-tab_content.cs-style1 h3 {
+  font-size: 18px;
+  line-height: 33px;
+  font-weight: 600;
+  color: #030303;
+  margin: 0;
+}
+
+.cs-tab_content.cs-style1 p {
+  margin-bottom: 30px;
+}
+
+.cs-tab_content_list {
+  list-style: none;
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  border: 1px solid #e3e3e3;
+  padding: 20px 70px;
+}
+
+.cs-review_card.cs-style1 {
+  border: 1px solid #e3e3e3;
+}
+
+.cs-review_card.cs-style1 .cs-review_card_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 5px 25px;
+}
+
+.cs-review_card.cs-style1 .cs-card_head_left {
+  font-weight: 600;
+}
+
+.cs-review_card.cs-style1 .cs-review_card_body {
+  padding: 18px 25px 25px;
+}
+
+.cs-review_card.cs-style1 .cs-review_card_body p {
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 14px;
+}
+
+.cs-review_card.cs-style1 .cs-review_card_body .cs-stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cs-review_card.cs-style1 .cs-review_card_body .cs-stars svg:not(:last-child) {
+  margin-right: 20px;
+}
+
+.cs-text_box.cs-style1.cs-type1 {
+  width: 128%;
+  margin-left: -28%;
+}
+
+.cs-text_box.cs-style1 h4:not(.cs-text_box_brand_title) {
+  font-weight: 400;
+  font-size: 30px;
+  color: #012147;
+  line-height: 1.3em;
+  margin-bottom: 5px;
+}
+
+.cs-text_box.cs-style1 h5 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.cs-with_shape.cs-style1 .cs-position1 {
+  left: -145px;
+  top: 20%;
+}
+
+.cs-with_shape.cs-style1 .cs-position2 {
+  left: 37%;
+  top: 80px;
+}
+
+.cs-list.cs-style1 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 21px;
+  line-height: 1.6em;
+}
+
+.cs-list.cs-style1 li {
+  position: relative;
+  padding-left: 30px;
+}
+
+.cs-list.cs-style1 li:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 11px;
+  height: 12px;
+  width: 12px;
+  background-color: #1cab8f;
+  border-radius: 50%;
+}
+
+.cs-list.cs-style1 strong {
+  font-weight: 600;
+}
+.cs-parallax [class*='cs-to_'],
+.cs-bg_parallax [class*='cs-to_'] {
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.cs-height_100 {
+    height: 100px;
+  }
+  .cs-height_lg_60 {
+    height: 60px;
+  }
+  .cs-mobile_column_reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .cs-vertical_middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.cs-vertical_middle .cs-vertical_middle_in {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: 100%;
+}
+.cs-vertical_middle .cs-vertical_middle_in {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: 100%;
+}
+.cs-text_box_brands img {
+  margin: 5px;
+}
+.cs-text_box.cs-style1.cs-type1 {
+  width: 128%;
+  margin-left: -28%;
+}
+
+.cs-text_box.cs-style1 h4:not(.cs-text_box_brand_title) {
+  font-weight: 400;
+  font-size: 30px;
+  color: #012147;
+  line-height: 1.3em;
+  margin-bottom: 5px;
+}
+
+.cs-text_box.cs-style1 h5 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.cs-text_box.cs-style1.cs-type1 {
+    width: 100%;
+    margin-left: 0;
+  }
+  .cs-text_box_titel {
+    font-size: 32px;
+    line-height: 1.3em;
+  }
+  .cs-text_box_subtitle {
+    font-size: 22px;
+    line-height: 1.3em;
+  }
+  .cs-text_box_text {
+    font-size: 16px;
+    line-height: 1.6em;
+  }
+  .cs-text_box_brand_title {
+    font-size: 22px;
+    line-height: 1.3em;
+  }
+  .cs-text_box.cs-style1 h4:not(.cs-text_box_brand_title) {
+    font-size: 24px;
+  }
+  .cs-text_box.cs-style1 h5 {
+    font-size: 20px;
+  }
+  .cs-page_header_tilte {
+    font-size: 48px;
+  }
+  .cs-text_box_subtitle {
+    font-size: 22px;
+    line-height: 1.3em;
+  }
+  .cs-text_box_titel {
+    font-size: 32px;
+    line-height: 1.3em;
+  }
+  .cs-accent_color {
+  color: #1cab8f;
+}
+.cs-text_box_text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 0px;
+}
+.cs-text_box_text {
+    font-size: 16px;
+    line-height: 1.6em;
+  }
+  .cs-text_box_brand {
+  margin-top: 10px;
+}
+
+.cs-text_box_brand_title {
+  font-size: 30px;
+  line-height: 43px;
+  margin-bottom: 5px;
+}
+
+.cs-text_box_brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: -5px;
+}
+
+.cs-text_box_brands img {
+  margin: 5px;
+}
+.cs-text_box.cs-style1 h4:not(.cs-text_box_brand_title) {
+  font-weight: 400;
+  font-size: 30px;
+  color: #012147;
+  line-height: 1.3em;
+  margin-bottom: 5px;
+}
+.cs-text_box_brand_title {
+    font-size: 22px;
+    line-height: 1.3em;
+  }
+  .cs-text_box.cs-style1 h4:not(.cs-text_box_brand_title) {
+    font-size: 24px;
+  }
+  .cs-text_box_brand_title {
+  font-size: 30px;
+  line-height: 43px;
+  margin-bottom: 5px;
+}
+.cs-text_box.cs-style1 h4:not(.cs-text_box_brand_title) {
+  font-weight: 400;
+  font-size: 30px;
+  color: #012147;
+  line-height: 1.3em;
+  margin-bottom: 5px;
+}
+.cs-text_box_brand_title {
+    font-size: 22px;
+    line-height: 1.3em;
+  }
+  .cs-text_box.cs-style1 h4:not(.cs-text_box_brand_title) {
+    font-size: 24px;
+  }
+  .cs-text_box_brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: -5px;
+}
+
+.cs-text_box_brands img {
+  margin: 5px;
+}
+.cs-right_full_width {
+  height: 100%;
+  width: calc(50vw - 8px);
+  margin-left: -15px;
+  position: relative;
+}
+
+.cs-right_full_width.cs-space_85 {
+  padding-left: 85px;
+}
+.cs-image_box_2_wrap {
+  position: relative;
+}
+
+.cs-image_box_2_wrap:after {
+  content: '';
+  position: absolute;
+  width: 214px;
+  height: 170px;
+  border: 7px solid #2c5daa;
+  border-right: 0;
+  border-bottom: 0;
+  border-radius: 170px 0;
+  top: 0;
+  left: -40px;
+  pointer-events: none;
+}
+.cs-image_box.cs-style2:before,
+  .cs-image_box.cs-style2:after,
+  .cs-image_box_2_wrap:after,
+  .cs-image_box_3_wrap:after,
+  .cs-image_box.cs-style3:after,
+  .cs-image_box.cs-style3:before,
+  .cs-image_box_4_wrap::before,
+  .cs-image_box_4_wrap::after,
+  .cs-image_box.cs-style4::before,
+  .cs-image_box.cs-style4::after {
+    display: none;
+  }
+
+
+  .cs-image_box.cs-style1 {
+  min-height: 550px;
+  border-radius: 100px 0 100px 0;
+}
+
+.cs-image_box_2_wrap {
+  position: relative;
+}
+
+.cs-image_box_2_wrap:after {
+  content: '';
+  position: absolute;
+  width: 214px;
+  height: 170px;
+  border: 7px solid #2c5daa;
+  border-right: 0;
+  border-bottom: 0;
+  border-radius: 170px 0;
+  top: 0;
+  left: -40px;
+  pointer-events: none;
+}
+
+.cs-image_box.cs-style2 {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 690px;
+  width: 100%;
+}
+
+.cs-image_box.cs-style2:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  bottom: -55px;
+  -webkit-transform: skewY(4.8deg);
+          transform: skewY(4.8deg);
+  z-index: 1;
+}
+
+.cs-image_box.cs-style2:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 50px;
+  background-color: #fff;
+  left: -44px;
+  bottom: 0;
+  -webkit-transform: skewX(3deg);
+          transform: skewX(3deg);
+}
+
+.cs-image_box.cs-style2 .cs-image_box_shape {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  -webkit-transform: skewY(-3deg);
+          transform: skewY(-3deg);
+  top: 23px;
+  border-radius: 130px 0 0 0;
+  overflow: hidden;
+}
+
+.cs-image_box.cs-style2 .cs-image_box_in {
+  height: 100%;
+  width: 100%;
+  -webkit-transform: skewY(0deg);
+          transform: skewY(0deg);
+}
+
+.cs-image_box_3_wrap {
+  position: relative;
+}
+
+.cs-image_box_3_wrap:after {
+  content: '';
+  position: absolute;
+  width: 214px;
+  height: 170px;
+  border: 7px solid #2c5daa;
+  border-left: 0;
+  border-bottom: 0;
+  border-radius: 0 170px;
+  top: 0;
+  right: -40px;
+  pointer-events: none;
+}
+
+.cs-image_box.cs-style3 {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 690px;
+  width: 100%;
+}
+
+.cs-image_box.cs-style3:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  bottom: -55px;
+  -webkit-transform: skewY(-4.8deg);
+          transform: skewY(-4.8deg);
+  z-index: 1;
+}
+
+.cs-image_box.cs-style3:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 50px;
+  background-color: #fff;
+  right: -44px;
+  bottom: 0;
+  -webkit-transform: skewX(-3deg);
+          transform: skewX(-3deg);
+}
+
+.cs-image_box.cs-style3 .cs-image_box_shape {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  -webkit-transform: skewY(3deg);
+          transform: skewY(3deg);
+  top: 23px;
+  border-radius: 0 130px 0 0;
+  overflow: hidden;
+}
+
+.cs-image_box.cs-style3 .cs-image_box_in {
+  height: 100%;
+  width: 100%;
+  -webkit-transform: skewY(0deg);
+          transform: skewY(0deg);
+}
+
+.cs-image_box_4_wrap {
+  position: relative;
+  height: 100%;
+}
+
+.cs-image_box_4_wrap::after, .cs-image_box_4_wrap::before {
+  content: '';
+  position: absolute;
+  border: 7px solid #2c5daa;
+}
+
+.cs-image_box_4_wrap::after {
+  width: 153px;
+  height: 110px;
+  border: 7px solid #2c5daa;
+  border-top: 0;
+  border-left: 0;
+  border-radius: 110px 0;
+  bottom: -22px;
+  right: -21px;
+  pointer-events: none;
+}
+
+.cs-image_box_4_wrap::before {
+  width: 100%;
+  height: 110px;
+  border: 7px solid #2c5daa;
+  border-bottom: 0;
+  border-left: 0;
+  border-radius: 0 110px;
+  top: -22px;
+  right: -21px;
+  pointer-events: none;
+  -webkit-transform: rotate3d(1, 1, 1, -5deg);
+          transform: rotate3d(1, 1, 1, -5deg);
+  z-index: 1;
+}
+
+.cs-image_box.cs-style4 {
+  min-height: 660px;
+  height: 100%;
+  border-radius: 0 100px 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.cs-image_box.cs-style4::after, .cs-image_box.cs-style4::before {
+  content: '';
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  min-width: 1500px;
+  right: 0;
+}
+
+.cs-image_box.cs-style4::after {
+  height: 60px;
+  bottom: -26px;
+  -webkit-transform: skewY(3deg);
+          transform: skewY(3deg);
+}
+
+.cs-image_box.cs-style4::before {
+  height: 60px;
+  -webkit-transform: skewY(-3deg);
+          transform: skewY(-3deg);
+  top: -26px;
+}
+.cs-image_box.cs-style2 {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  height: 690px;
+  width: 100%;
+}
+
+.cs-image_box.cs-style2:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  bottom: -55px;
+  -webkit-transform: skewY(4.8deg);
+          transform: skewY(4.8deg);
+  z-index: 1;
+}
+
+.cs-image_box.cs-style2:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 50px;
+  background-color: #fff;
+  left: -44px;
+  bottom: 0;
+  -webkit-transform: skewX(3deg);
+          transform: skewX(3deg);
+}
+
+.cs-image_box.cs-style2 .cs-image_box_shape {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  -webkit-transform: skewY(-3deg);
+          transform: skewY(-3deg);
+  top: 23px;
+  border-radius: 130px 0 0 0;
+  overflow: hidden;
+}
+
+.cs-image_box.cs-style2 .cs-image_box_in {
+  height: 100%;
+  width: 100%;
+  -webkit-transform: skewY(0deg);
+          transform: skewY(0deg);
+}
+.cs-with_shape.cs-style2 .cs-position1 {
+  right: -40px;
+  top: -200px;
+}
+
+.cs-with_shape.cs-style2 .cs-position2 {
+  left: 47%;
+  top: -40px;
+}
+
+.cs-page_controller .cs-btn.cs-style2 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 0;
+}
+.cs-btn.cs-style2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  background-color: #010c44;
+  border-radius: 50px;
+  padding: 4px 25px;
+  line-height: 1.6em;
+  font-size: 20px;
+  min-width: 132px;
+  outline: none;
+}
+
+.cs-btn.cs-style2:hover {
+  background-color: #1cab8f;
+}
+.cs-slider.cs-style2 {
+  padding: 0 80px;
+}
+.cs-nav_list > li > .cs-nav_btn.cs-style2 svg {
+    margin-right: 10px;
+  }
+  .cs-nav_list > li > .cs-nav_btn.cs-style2.cs-color1 {
+    background-color: #1cab8f;
+    -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  }
+  .cs-nav_list > li > .cs-nav_btn.cs-style2.cs-color1:hover {
+    background-color: #0fc19e;
+  }
+  .cs-nav_list > li > .cs-nav_btn.cs-style2.cs-color2 {
+    background-color: #2c5daa;
+    -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  }
+  .cs-nav_list > li > .cs-nav_btn.cs-style2.cs-color2:hover {
+    background-color: #1d6ae3;
+  }
+  .cs-nav_list > li > .cs-nav_btn.cs-style2 {
+    font-size: 18px;
+    padding: 8px 20px;
+  }
+
+  .cs-category.cs-style2 {
+  display: block;
+  text-align: center;
+  padding: 25px;
+  overflow: hidden;
+}
+
+.cs-category.cs-style2 .category_title {
+  font-size: 22px;
+  color: #010c44;
+  margin-bottom: 20px;
+}
+
+.cs-category.cs-style2 .cs-category_img {
+  height: 241px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cs-category.cs-style2 .cs-category_img img {
+  max-height: 100%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.cs-category.cs-style2 .cs-category_img + .category_title {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.cs-category.cs-style2:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.cs-category.cs-style2.cs-color1 {
+  background-color: #ffb3ba;
+}
+
+.cs-category.cs-style2.cs-color2 {
+  background-color: #ffdfba;
+}
+
+.cs-category.cs-style2.cs-color3 {
+  background-color: #baffc9;
+}
+
+.cs-category.cs-style2.cs-color4 {
+  background-color: #bae1ff;
+}
+
+.cs-category.cs-style2.cs-color5 {
+  background-color: #d4cbee;
+}
+
+.cs-category.cs-style2.cs-color6 {
+  background-color: #e4c1f9;
+}
+
+.cs-category.cs-style2.cs-color7 {
+  background-color: #ede7b1;
+}
+
+.cs-category.cs-style2.cs-color8 {
+  background-color: #97e8ef;
+}
+
+@media screen and (max-width: 991px) {
+  .cs-category.cs-style1 .category_title {
+    font-size: 20px;
+    line-height: 1.2em;
+    left: 20px;
+  }
+}
+.cs-seciton_heading.cs-style2 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.cs-seciton_heading.cs-style2 .cs-seciton_title {
+  font-size: 26px;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  padding-right: 5%;
+  color: #010c44;
+}
+
+.cs-seciton_heading.cs-style2 .cs-seciton_title:after {
+  content: '';
+  position: absolute;
+  left: 100%;
+  height: 7px;
+  background: #f5f5fb;
+  width: 1920px;
+  top: 12px;
+}
+.cs-card_wrap_1 .cs-seciton_heading.cs-style2 {
+  margin-bottom: -30px;
+  margin-left: 16.666667%;
+}
+.cs-image_box.cs-style2 .cs-image_box_shape {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  -webkit-transform: skewY(-3deg);
+          transform: skewY(-3deg);
+  top: 23px;
+  border-radius: 130px 0 0 0;
+  overflow: hidden;
+}
+.cs-image_box.cs-style3 .cs-image_box_shape {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  -webkit-transform: skewY(3deg);
+          transform: skewY(3deg);
+  top: 23px;
+  border-radius: 0 130px 0 0;
+  overflow: hidden;
+}
+.cs-image_box.cs-style2 .cs-image_box_in {
+  height: 100%;
+  width: 100%;
+  -webkit-transform: skewY(0deg);
+          transform: skewY(0deg);
+}
+.cs-image_box.cs-style3 .cs-image_box_in {
+  height: 100%;
+  width: 100%;
+  -webkit-transform: skewY(0deg);
+          transform: skewY(0deg);
+}
+.cs-parallax [class*='cs-to_'],
+.cs-bg_parallax [class*='cs-to_'] {
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.cs-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cs-image_box.cs-style2 .cs-image_box_shape {
+  width: 84%;
+}

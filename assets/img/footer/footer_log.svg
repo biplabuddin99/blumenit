@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="281" height="63" viewBox="0 0 281 63">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_243" data-name="Rectangle 243" width="63" height="63" transform="translate(150 4676)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#233779"/>
+      <stop offset="0.231" stop-color="#233b7d"/>
+      <stop offset="0.466" stop-color="#214689"/>
+      <stop offset="0.702" stop-color="#1f599d"/>
+      <stop offset="0.938" stop-color="#1c73ba"/>
+      <stop offset="0.947" stop-color="#1c74bb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.465" y1="0.934" x2="0.772" y2="-0.363" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#039644"/>
+      <stop offset="0.239" stop-color="#0b9a45"/>
+      <stop offset="0.603" stop-color="#20a747"/>
+      <stop offset="0.936" stop-color="#39b54a"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_455" data-name="Group 455" transform="translate(-401 -4676)">
+    <g id="Mask_Group_31" data-name="Mask Group 31" transform="translate(251)" clip-path="url(#clip-path)">
+      <g id="Blueman_Computer_Logo_icon" data-name="Blueman Computer Logo icon" transform="translate(150 4679.905)">
+        <path id="Path_97" data-name="Path 97" d="M40.726,35.653H80.32s14.6,1.559,8.772,24.627c-6.628.13-51.485-.13-61.622,17.111A45.353,45.353,0,0,1,47.094,58.85a64.929,64.929,0,0,1,28.547-6.5c.888-.195,1.689-1.083,1.559-3.054l-.671-1.971H52.1Z" transform="translate(-27.47 -35.653)" fill="url(#linear-gradient)"/>
+        <path id="Path_98" data-name="Path 98" d="M90.187,74.043s-37.818-2.426-50.25,5.285H70.975s6.151-.13,5,7.906H43.315L29.106,100.684H80.44S94.107,100.9,90.187,74.043Z" transform="translate(-27.894 -45.495)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+    <text id="Blumen_Computer_Trading_LLC" data-name="Blumen Computer
+Trading LLC" transform="translate(474 4704)" fill="#fff" font-size="22" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Blumen Computer</tspan><tspan x="0" y="24">Trading LLC</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,87 @@
+.cs-category.cs-style1 {
+  display: block;
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+  .category_title {
+    position: absolute;
+    top: 16px;
+    z-index: 1;
+    margin: 0;
+    font-size: 25px;
+    color: $white;
+    line-height: 38px;
+    left: 30px;
+  }
+  .cs-category_img {
+    transition: all 0.5s ease-in-out;
+  }
+  &:hover {
+    .cs-category_img {
+      transform: scale(1.08);
+    }
+  }
+}
+
+.cs-category.cs-style2 {
+  display: block;
+  text-align: center;
+  padding: 25px;
+  overflow: hidden;
+  .category_title {
+    font-size: 22px;
+    color: #010c44;
+    margin-bottom: 20px;
+  }
+  .cs-category_img {
+    height: 241px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      max-height: 100%;
+      transition: all 0.4s ease;
+    }
+    + .category_title {
+      margin-top: 20px;
+      margin-bottom: 0px;
+    }
+  }
+  &:hover {
+    img {
+      transform: scale(1.05);
+    }
+  }
+  &.cs-color1 {
+    background-color: #ffb3ba;
+  }
+  &.cs-color2 {
+    background-color: #ffdfba;
+  }
+  &.cs-color3 {
+    background-color: #baffc9;
+  }
+  &.cs-color4 {
+    background-color: #bae1ff;
+  }
+  &.cs-color5 {
+    background-color: #d4cbee;
+  }
+  &.cs-color6 {
+    background-color: #e4c1f9;
+  }
+  &.cs-color7 {
+    background-color: #ede7b1;
+  }
+  &.cs-color8 {
+    background-color: #97e8ef;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .cs-category.cs-style1 .category_title {
+    font-size: 20px;
+    line-height: 1.2em;
+    left: 20px;
+  }
+}

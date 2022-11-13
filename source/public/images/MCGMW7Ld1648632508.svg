@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49" height="49" viewBox="0 0 49 49">
+              <defs>
+                <clipPath id="delivery-clip-path">
+                  <rect width="49" height="49" transform="translate(0.274 -0.322)" fill="#fff" stroke="#707070" stroke-width="1"></rect>
+                </clipPath>
+              </defs>
+              <g transform="translate(-0.274 0.322)" clip-path="url(#delivery-clip-path)">
+                <g transform="translate(0 4.333)">
+                  <g transform="translate(0 0)">
+                    <path d="M48.016,31.983h-.143V25.66a.975.975,0,0,0-.077-.383L43.931,15.99a.969.969,0,0,0-.88-.593H36.643V9.955a3.078,3.078,0,0,0-3.08-3.08H17.552L17.6,8.788H33.563A1.172,1.172,0,0,1,34.73,9.955V31.983H3.013V9.964A1.172,1.172,0,0,1,4.18,8.8H21.043l.048-1.913H4.18A3.09,3.09,0,0,0,1.1,9.964V31.992H.956A.959.959,0,0,0,0,32.949V39.51a.959.959,0,0,0,.956.956H6.035a5.42,5.42,0,1,0,10.684,1.263,5.556,5.556,0,0,0-.143-1.263h17a5.42,5.42,0,1,0,10.684,1.263,5.556,5.556,0,0,0-.143-1.263h3.9a.959.959,0,0,0,.956-.956V32.949A.961.961,0,0,0,48.016,31.983ZM36.643,17.32h5.768l3.07,7.384H36.643Zm0,9.3h9.316v5.366H36.643ZM11.3,45.259a3.539,3.539,0,1,1,3.5-3.539A3.523,3.523,0,0,1,11.3,45.259Zm27.547,0a3.539,3.539,0,1,1,3.5-3.539,3.523,3.523,0,0,1-3.5,3.539Zm8.216-6.7H43.243a5.39,5.39,0,0,0-8.8,0H15.7a5.39,5.39,0,0,0-8.8,0H1.913V33.905H47.059Z" transform="translate(0 -6.875)" fill="#020288"></path>
+                  </g>
+                  <rect width="26.112" height="16.069" transform="translate(5.93 5.892)" fill="#ffbdbc"></rect>
+                  <text transform="translate(8.852 15.789)" fill="#020288" font-size="7" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">FREE</tspan></text>
+                </g>
+              </g>
+            </svg>

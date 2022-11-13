@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="51" viewBox="0 0 51 51">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_571" data-name="Rectangle 571" width="51" height="51" transform="translate(1161 1029)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="tweeter" transform="translate(-1161 -1029)" clip-path="url(#clip-path)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(1161 1029)">
+      <g id="Layer_1" data-name="Layer 1">
+        <rect id="Rectangle_583" data-name="Rectangle 583" width="51" height="51" rx="10.983" fill="#439cd6"/>
+        <path id="Path_807" data-name="Path 807" d="M42.323,16.464a13.482,13.482,0,0,1-3.732,1.073,6.435,6.435,0,0,0,2.842-3.593,12.871,12.871,0,0,1-4.108,1.566,6.435,6.435,0,0,0-11.208,4.43,6.661,6.661,0,0,0,.15,1.48,18.319,18.319,0,0,1-13.4-6.811,6.45,6.45,0,0,0,1.995,8.645,6.328,6.328,0,0,1-2.9-.729h0a6.5,6.5,0,0,0,5.191,6.435,6.671,6.671,0,0,1-1.695.215,5.234,5.234,0,0,1-1.233-.118,6.532,6.532,0,0,0,6.06,4.515,13.032,13.032,0,0,1-8.033,2.767,12.259,12.259,0,0,1-1.534-.129,18.233,18.233,0,0,0,9.943,2.907c11.927,0,18.448-9.878,18.448-18.448v-.837A12.774,12.774,0,0,0,42.323,16.464Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

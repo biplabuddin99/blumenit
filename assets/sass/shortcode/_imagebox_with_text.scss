@@ -1,0 +1,108 @@
+.cs-imagebox_1_wrap {
+  display: grid;
+  grid-gap: 40px 13%;
+  grid-template-columns: repeat(3, 1fr);
+}
+.cs-imagebox_with_text.cs-style1 {
+  position: relative;
+  &::after {
+    content: '';
+    width: 79px;
+    height: 96px;
+    position: absolute;
+    right: -35%;
+    top: 42%;
+    background-image: url(../img/icons/double_ba.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+  .cs-imagebox_img {
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 30px 0 30px 0;
+    &::after {
+      content: '';
+      width: 48px;
+      height: 73px;
+      position: absolute;
+      right: -56px;
+      top: 0;
+      background-image: url(../img/icons/flower_like.svg);
+      background-repeat: no-repeat;
+      background-position: left top;
+    }
+    img {
+      width: 100%;
+      border-radius: inherit;
+    }
+  }
+  .cs-imagebox_title {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .cs-imagebox_subtitle {
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 23px;
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 82px;
+      height: 5px;
+      background: #1cab8f;
+    }
+  }
+  &:nth-child(3n + 0) {
+    &::after {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 1199px) {
+  .cs-iconbox_1_wrap {
+    grid-gap: 40px 40px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .cs-iconbox.cs-style1 .cs-iconbox_title {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .cs-iconbox.cs-style1 .cs-iconbox_subtitle {
+    font-size: 16px;
+  }
+  .cs-iconbox_1_wrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 1199px) {
+  .cs-imagebox_with_text.cs-style1::after,
+  .cs-imagebox_with_text.cs-style1 .cs-imagebox_img::after {
+    display: none;
+  }
+  .cs-imagebox_1_wrap {
+    grid-gap: 40px 40px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .cs-imagebox_1_wrap {
+    grid-gap: 40px 30px;
+  }
+  .cs-imagebox_with_text.cs-style1 .cs-imagebox_subtitle {
+    font-size: 16px;
+  }
+  .cs-imagebox_with_text.cs-style1 .cs-imagebox_title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .cs-imagebox_with_text.cs-style1 .cs-imagebox_img {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .cs-imagebox_1_wrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
