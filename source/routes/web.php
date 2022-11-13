@@ -38,7 +38,7 @@ use App\Http\Controllers\GamingSettingController;
 use App\Http\Controllers\ShippingController;
 use App\Http\Controllers\CorporateSettingsController;
 
-
+use App\Http\Controllers\Company\CompanyController as company;
 use App\Http\Controllers\Header\HeaderController;
 
 /*
@@ -136,7 +136,7 @@ Route::group(['middleware'=>'isSuperadmin'],function(){
         Route::resource('shipping', ShippingController::class,['as'=>'superadmin']);
         Route::resource('phoneext', PhoneExtController::class,['as'=>'superadmin']);
 
-
+		Route::resource('company', company::class,['as'=>'superadmin']);
         Route::resource('header', HeaderController::class,['as'=>'superadmin']);
         
         

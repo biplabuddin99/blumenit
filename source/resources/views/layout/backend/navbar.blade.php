@@ -42,7 +42,8 @@
                             <a href="#">Home Page <div class="arrow-down"></div></a>
                             <ul class="submenu">
                                 <li><a href="{{route(Session::get('identity').'.headerview.index')}}">Header</a></li>
-                                <li><a href="{{route(Session::get('identity').'.header.index')}}">Header me</a></li>
+                                <li><a href="{{route(Session::get('identity').'.header.index')}}">Logo</a></li>
+                                <li><a href="{{route(Session::get('identity').'.company.index')}}">Home Section_1</a></li>
                                 <li><a href="{{route(Session::get('identity').'.headersupport.index')}}">Home header support</a></li>
                                 <li><a href="{{route(Session::get('identity').'.footersupport.index')}}">Home footer support</a></li>
                                 <li><a href="{{route(Session::get('identity').'.homesec1.index')}}">Home Section 1</a></li>
